@@ -23,10 +23,10 @@ The Kubernetes Service end points are discoverable across the clusters and know 
 
 ## Prerequisites
 
-- Two GCP projects with billing and the Kubernetes API enabled
+- GCP project with billing, the Kubernetes and Anthos API enabled
 - `gcloud` CLI
+- `gcloud` kpt component
 - `kubectl`
-- `helm` CLI
 
 ## Setup namespaces
 
