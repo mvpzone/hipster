@@ -1,0 +1,8 @@
+apiVersion: kpt.dev/v1alpha1
+kind: Kptfile
+metadata:
+  name: mcrcp
+packageMetadata:
+  tags:
+  - kpt.dev/app=hipster
+  shortDescription: kpt hipster multi-cluster replicated control plane package
