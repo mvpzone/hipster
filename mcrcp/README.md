@@ -112,7 +112,7 @@ paymentservice-84d7bf956-8f9br     2/2     Running   0          3m29s
 shippingservice-78dc8784d4-7h4zx   2/2     Running   0          3m29s
 ```
 
-1. Get pods in cluster 2 (namespace `hipster2`) to make sure all are `RUNNING` -
+2. Get pods in cluster 2 (namespace `hipster2`) to make sure all are `RUNNING` -
 
 ```bash
 NAME                                     READY   STATUS    RESTARTS   AGE
@@ -122,7 +122,7 @@ productcatalogservice-c796f4c6d-qgfp8    2/2     Running   0          2m32s
 recommendationservice-6788b77796-z4xq8   2/2     Running   0          2m31s
 ```
 
-1. Get the Ingress Gateway `EXTERNAL_IP` in `cluster1`, where the web `frontend` is deployed:
+3. Get the Ingress Gateway `EXTERNAL_IP` in `cluster1`, where the web `frontend` is deployed:
 
 ```bash
 kubectl config use-context gke_${PROJECT}_us-central1-b_dual-cluster2
@@ -133,7 +133,7 @@ Navigate to that address in a browser.
 
 ![frontend](images/frontend.png)
 
-1. View the service graph.
+4. View the service graph.
 
 From the Anthos UI and navigate to the service mesh area to visulise the service topology.
 
