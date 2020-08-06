@@ -4,11 +4,11 @@ This example shows how to orchestrate an application with [Anthos Service Mesh](
 Google Kubernetes Engine clusters. To do this, we will unite two different Istio service meshes into
 one logical, hybrid mesh.
 
-![dual-screenshot](images/frontend.png)
-
 This example is relevant if you run microservices on two different cloud platforms, or are
 using a combination of on-prem and cloud Kubernetes. For demonstration purposes here, we'll use two GKE clusters in two different projects, and thus two
 different [virtual networks](https://cloud.google.com/kubernetes-engine/docs/concepts/network-overview#inside-cluster).
+
+The [online boutique application](https://github.com/GoogleCloudPlatform/microservices-demo) is used to illustrate the concept.
 
 ## How it works
 
