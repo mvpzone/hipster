@@ -1,4 +1,4 @@
-# Demo: Multicluster - Replicated Control Plane - Service Mesh
+# Demo: Anthos Service Mesh - Multicluster - Replicated Control Plane
 
 This example shows how to orchestrate an application with [Anthos Service Mesh](https://cloud.google.com/anthos/service-mesh) across two different
 Google Kubernetes Engine clusters. To do this, we will unite two different Istio service meshes into
